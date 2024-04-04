@@ -8,6 +8,7 @@ public class SpringProject1Application {
 
 	public static void main(String[] args) {
 		SpringApplication.run(SpringProject1Application.class, args);
+		System.out.println("Hello Connections....!");
 	}
 
 }
