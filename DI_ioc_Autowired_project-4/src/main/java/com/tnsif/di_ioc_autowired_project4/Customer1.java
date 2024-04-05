@@ -26,6 +26,7 @@ public class Customer1 {
 		this.c_name = c_name;
 	}
 	
+	
 	public void show() {
 		System.out.println("Customer 1 Object");
 		c2.show();
