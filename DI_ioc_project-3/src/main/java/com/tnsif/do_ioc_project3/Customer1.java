@@ -20,6 +20,11 @@ public class Customer1 {
 		this.c_name = c_name;
 	}
 	
+	@Override
+	public String toString() {
+		return "Customer1 [c_id=" + c_id + ", c_name=" + c_name + "]";
+	}
+	
 	public void show() {
 		System.out.println("Customer 1 Object");
 	}
